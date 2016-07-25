@@ -53,7 +53,7 @@ public class FirstTest {
         // Go to the Wikipedia home page
         driver.get("https://new.vk.com/");
         driver.findElement(By.id("index_email")).sendKeys("dezaol@ukr.net");
-        driver.findElement(By.id("index_pass")).sendKeys("1111");
+        driver.findElement(By.id("index_pass")).sendKeys("11111");
         driver.findElement(By.id("index_login_button")).click();
         WebDriverWait wait = new WebDriverWait(driver, 10);
         WebElement element = wait.until(ExpectedConditions.elementToBeClickable(By.id("top_profile_link")));
