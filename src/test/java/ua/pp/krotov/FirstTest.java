@@ -52,7 +52,7 @@ public class FirstTest {
     public void gotoZ() throws InterruptedException {
         // Go to the Wikipedia home page
         driver.get("https://new.vk.com/");
-        driver.findElement(By.id("index_email")).sendKeys("dezaol@ukr.net");
+        driver.findElement(By.id("index_email")).sendKeys("dezaoll@ukr.net");
         driver.findElement(By.id("index_pass")).sendKeys("11111");
         driver.findElement(By.id("index_login_button")).click();
         WebDriverWait wait = new WebDriverWait(driver, 10);
